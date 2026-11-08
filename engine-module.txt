@@ -2,9 +2,10 @@
 # requires: modules this folder may include besides the kernel (core, platform, jobs), as name minVersion.
 @format engine-module 1
 name session
-version 0.1.0
+version 0.1.1
 kernel 0.9
 kind sim
+layer core
 requires
 tag session
 summary The match session interface the game sees (inputs per tick, commands, lobby, chat) and its shared types; net implements it
