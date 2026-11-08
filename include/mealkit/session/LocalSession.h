@@ -32,6 +32,7 @@ public:
     void update(f64 now);
     // Back to Idle. Content hash, name, loadout, input kind and crossplay remain
     void reset();
+    void shutdown() { reset(); } // same as reset (nothing to close without a network)
 
     SessionState state() const override;
     const char* endReason() const override;
