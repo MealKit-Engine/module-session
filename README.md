@@ -1,4 +1,4 @@
-# MealKit-Session
+# module-session
 
 > **Beta.** MealKit is in beta: interfaces may still change between minor versions.
 
